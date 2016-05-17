@@ -1,0 +1,13 @@
+create table APP.MEMBER (
+  idx INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),
+  email varchar(255) NOT NULL,
+  name varchar(255) NOT NULL
+);
+
+
+
+drop table APP.MEMBER;
+
+
+
+insert into app.member(email, name)values('dudwns519@daum.net', 'jun');
